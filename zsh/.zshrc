@@ -1,3 +1,10 @@
+# aliases
+alias ls="ls -G"
+alias tree="tree -C"
+alias vi="nvim"
+alias vim="nvim"
+alias sshhome="ssh pi@76.8.226.199"
+
 # Enable colors and change prompt:
 autoload -U colors && colors
 PATH=/opt/homebrew/bin:$PATH
